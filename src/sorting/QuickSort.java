@@ -9,5 +9,18 @@ public class QuickSort {
         if(low>=hi){
             return;
         }
+        int s = low;
+        int e = hi;
+        int m = s + (e-s)/2;
+        int pivot = nums[m];
+
+        while (s <= e){
+            while (nums[s] < pivot){
+                s++;
+            }
+            while (nums[e]>pivot){
+                e++;
+            }
+        }
     }
 }
