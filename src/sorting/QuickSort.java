@@ -21,6 +21,10 @@ public class QuickSort {
             while (nums[e]>pivot){
                 e++;
             }
+            //swap
+            if (s <=e ){
+
+            }
         }
     }
 }
