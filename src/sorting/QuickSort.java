@@ -22,7 +22,10 @@ public class QuickSort {
                 e++;
             }
             //swap
-            if (s <=e ){
+            if (s <= e ){
+                int temp = nums[s];
+                nums[s] = nums[e];
+                nums[e] = temp;
 
             }
         }
