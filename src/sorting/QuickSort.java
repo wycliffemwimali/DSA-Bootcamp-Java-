@@ -26,8 +26,13 @@ public class QuickSort {
                 int temp = nums[s];
                 nums[s] = nums[e];
                 nums[e] = temp;
+                s++;
+                e--;
 
             }
         }
+        //sort two halves
+        sort(nums, low, e);
+        sort(nums, s, hi);
     }
 }
