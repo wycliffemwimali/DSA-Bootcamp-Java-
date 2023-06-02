@@ -2,7 +2,7 @@ package Strings;
 
 public class Subseq {
     public static void main(String[] args) {
-
+        subseq("", "abc");
     }
     static void subseq(String p, String up){
         if(up.isEmpty()){
