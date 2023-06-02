@@ -2,7 +2,7 @@ package Strings;
 
 public class stream {
     public static void main(String[] args) {
-
+        skip("", "baaacaadaaahaaaataaayaaatgfraa");
     }
     static void skip(String p, String up){
         if(up.isEmpty()){
