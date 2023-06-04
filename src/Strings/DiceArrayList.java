@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class DiceArrayList {
     public static void main(String[] args) {
-
+        System.out.println(diceRet("", 4));
     }
     static ArrayList<String> diceRet(String p, int target){
         if(target==0){
