@@ -2,7 +2,7 @@ package Strings;
 
 public class PhonePad {
     public static void main(String[] args) {
-
+        pad("", "12");
     }
     static void pad(String p, String up){
         if(up.isEmpty()){
