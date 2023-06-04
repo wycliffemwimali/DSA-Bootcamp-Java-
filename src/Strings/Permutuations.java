@@ -2,7 +2,7 @@ package Strings;
 
 public class Permutuations {
     public static void main(String[] args) {
-
+        permutuations("", "abc");
     }
     static void permutuations(String p, String up){
         if(up.isEmpty()){
