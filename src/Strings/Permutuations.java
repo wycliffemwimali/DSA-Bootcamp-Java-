@@ -11,7 +11,8 @@ public class Permutuations {
         }
 
         char ch = up.charAt(0);
+        for(int i=0; i<=p.length(); i++){
 
-
+        }
     }
 }
