@@ -12,6 +12,11 @@ public class DiceArrayList {
             list.add(p);
             return list;
         }
+        ArrayList<String> list = new ArrayList<>();
 
+        for(int i = 1; i <= 6 && i <= target; i++){
+           list.addAll(diceRet(p + i, target - i));
+        }
+        return list;
     }
 }
