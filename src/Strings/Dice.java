@@ -2,7 +2,7 @@ package Strings;
 
 public class Dice {
     public static void main(String[] args) {
-
+        dice("", 4);
     }
     static void dice(String p, int target){
         if(target==0){
