@@ -9,5 +9,8 @@ public class Dice {
             System.out.println(p);
             return;
         }
+        for(int i = 1; i <= 6 && i <= target; i++){
+            dice(p + i, target - i);
+        }
     }
 }
