@@ -20,5 +20,13 @@ public class Maze {
             System.out.println(p);
             return;
         }
+
+        //recursion calls
+        if(r > 1){
+            path(p + 'D', r - 1, c);
+        }
+        if(c > 1){
+            path(p + 'R', r, c - 1);
+        }
     }
 }
