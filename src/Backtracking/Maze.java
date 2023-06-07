@@ -1,5 +1,7 @@
 package Backtracking;
 
+import java.util.ArrayList;
+
 public class Maze {
     public static void main(String[] args) {
         System.out.println(count(3,3));
@@ -29,5 +31,9 @@ public class Maze {
         if(c > 1){
             path(p + 'R', r, c - 1);
         }
+    }
+    //method to return an array list
+    static ArrayList<String> pathReturn (String p, int r, int c){
+
     }
 }
