@@ -13,4 +13,9 @@ public class Maze {
         int right =  count(r, c -1);
         return left + right;
     }
+
+    //method to print the paths
+    static void path(String p, int r, int c){
+
+    }
 }
