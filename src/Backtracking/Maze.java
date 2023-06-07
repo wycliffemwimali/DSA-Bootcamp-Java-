@@ -16,6 +16,9 @@ public class Maze {
 
     //method to print the paths
     static void path(String p, int r, int c){
-
+        if(r == 1 && c == 1){
+            System.out.println(p);
+            return;
+        }
     }
 }
