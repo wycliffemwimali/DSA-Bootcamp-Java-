@@ -39,5 +39,15 @@ public class Maze {
             list.add(p);
             return list;
         }
+        //recursion calls
+        ArrayList<String> list = new ArrayList<>();
+
+        if(r > 1){
+            list.addAll(pathReturn(p + 'D', r - 1, c));
+        }
+        if(c > 1){
+            list.addAll(pathReturn(p + 'R', r, c - 1));
+        }
+        return list;
     }
 }
