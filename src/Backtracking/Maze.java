@@ -34,6 +34,10 @@ public class Maze {
     }
     //method to return an array list
     static ArrayList<String> pathReturn (String p, int r, int c){
-
+        if(r == 1 && c == 1){
+            ArrayList<String> list = new ArrayList<>();
+            list.add(p);
+            return list;
+        }
     }
 }
