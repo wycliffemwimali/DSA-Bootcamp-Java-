@@ -11,5 +11,9 @@ public class MazeObstracles {
             System.out.println(p);
             return;
         }
+        //recursion calls
+        if(r < maze.length -1){
+            pathRestrictions(p, maze, r - 1, c);
+        }
     }
 }
