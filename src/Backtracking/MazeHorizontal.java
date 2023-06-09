@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class MazeHorizontal {
     public static void main(String[] args) {
+        System.out.println(pathReturn("", 3 ,3));
 
     }
     static ArrayList<String> pathReturn (String p, int r, int c){
