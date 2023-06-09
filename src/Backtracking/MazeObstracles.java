@@ -7,6 +7,7 @@ public class MazeObstracles {
                 {true, false, true},
                 {true, true, true}
         };
+        pathRestrictions("", board, 0, 0);
     }
 
     static void pathRestrictions(String p, boolean[][] maze, int r, int c){
