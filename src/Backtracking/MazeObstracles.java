@@ -13,7 +13,7 @@ public class MazeObstracles {
         }
         //recursion calls
         if(r < maze.length -1){
-            pathRestrictions(p, maze, r - 1, c);
+            pathRestrictions(p + 'D', maze, r - 1, c);
         }
     }
 }
