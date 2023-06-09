@@ -18,5 +18,9 @@ public class MazeObstracles {
         if(c < maze[0].length - 1){
             pathRestrictions(p + 'R', maze, r, c + 1);
         }
+        //obstacle condiion
+        if(!maze[r][c]){
+            return;
+        }
     }
 }
