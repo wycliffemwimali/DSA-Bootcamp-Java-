@@ -7,6 +7,11 @@ public class MazeHorizontal {
 
     }
     static ArrayList<String> pathReturn (String p, int r, int c){
-
+        //base condition
+        if(r == 1 && c == 1){
+            ArrayList<String> list = new ArrayList<>();
+            list.add(p);
+            return list;
+        }
     }
 }
