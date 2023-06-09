@@ -2,7 +2,11 @@ package Backtracking;
 
 public class MazeObstracles {
     public static void main(String[] args) {
-
+        boolean[][] board = {
+                {true, true, true},
+                {true, false, true},
+                {true, true, true}
+        };
     }
 
     static void pathRestrictions(String p, boolean[][] maze, int r, int c){
