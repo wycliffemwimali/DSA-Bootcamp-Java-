@@ -23,5 +23,10 @@ public class MazeHorizontal {
         if(r > 1){
             list.addAll(pathReturn(p + 'V', r - 1, c));
         }
+
+        if(c > 1){
+            list.addAll(pathReturn(p + 'H', r, c - 1));
+        }
+        return list;
     }
 }
