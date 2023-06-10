@@ -54,5 +54,6 @@ public class MazeObstracles {
         if(!maze[r][c]){
             return list;
         }
+        return list;
     }
 }
