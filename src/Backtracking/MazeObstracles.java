@@ -33,6 +33,11 @@ public class MazeObstracles {
 
     //method to return a list
     static ArrayList<String> pathRestrictionRet(String p, boolean[][] maze, int r, int c){
-
+        //base condition
+        ArrayList<String> list = new ArrayList<>();
+        if(r == maze.length - 1 && c == maze[0].length - 1){
+            list.add(p);
+            return  list;
+        }
     }
 }
