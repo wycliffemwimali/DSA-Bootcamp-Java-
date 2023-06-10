@@ -1,5 +1,7 @@
 package Backtracking;
 
+import java.util.ArrayList;
+
 public class MazeObstracles {
     public static void main(String[] args) {
         boolean[][] board = {
@@ -27,5 +29,10 @@ public class MazeObstracles {
         if(!maze[r][c]){
             return;
         }
+    }
+
+    //method to return a list
+    static ArrayList<String> pathRestrictionRet(String p, boolean[][] maze, int r, int c){
+
     }
 }
