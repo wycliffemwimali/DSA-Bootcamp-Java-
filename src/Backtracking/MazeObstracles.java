@@ -50,5 +50,7 @@ public class MazeObstracles {
             list.addAll(pathRestrictionRet(p + 'R', maze, r, c + 1));
             return  list;
         }
+        //obstacle condition
+
     }
 }
