@@ -40,6 +40,6 @@ public class MazeObstracles {
             return  list;
         }
         //recursion calls
-
+        ArrayList<String> list = new ArrayList<>();
     }
 }
