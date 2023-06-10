@@ -42,8 +42,9 @@ public class MazeObstracles {
         //recursion calls
         ArrayList<String> list = new ArrayList<>();
         if(r < maze.length - 1){
-            list.addAll(pathRestrictionRet(p + 'D', maze, r - 1, c));
+            list.addAll(pathRestrictionRet(p + 'D', maze, r + 1, c));
             return  list;
         }
+
     }
 }
