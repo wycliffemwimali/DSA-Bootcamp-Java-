@@ -39,5 +39,7 @@ public class MazeObstracles {
             list.add(p);
             return  list;
         }
+        //recursion calls
+
     }
 }
