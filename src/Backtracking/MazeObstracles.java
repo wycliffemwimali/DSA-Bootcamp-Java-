@@ -51,6 +51,8 @@ public class MazeObstracles {
             return  list;
         }
         //obstacle condition
-
+        if(!maze[r][c]){
+            return list;
+        }
     }
 }
