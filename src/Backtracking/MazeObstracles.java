@@ -46,5 +46,9 @@ public class MazeObstracles {
             return  list;
         }
 
+        if(c < maze[0].length - 1){
+            list.addAll(pathRestrictionRet(p + 'R', maze, r, c + 1));
+            return  list;
+        }
     }
 }
