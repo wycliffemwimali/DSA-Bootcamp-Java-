@@ -10,6 +10,7 @@ public class MazeObstracles {
                 {true, true, true}
         };
         pathRestrictions("", board, 0, 0);
+        System.out.println(pathRestrictionRet("", board,0, 0));
     }
 
     static void pathRestrictions(String p, boolean[][] maze, int r, int c){
