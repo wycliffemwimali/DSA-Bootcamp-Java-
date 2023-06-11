@@ -11,6 +11,6 @@ public class MazeAllPaths {
             return;
         }
         //obstacle condition
-
+        if(!maze[r][c])
     }
 }
