@@ -18,5 +18,6 @@ public class MazeAllPaths {
         if(r < maze.length - 1){
             allPaths(p + 'D', maze, r + 1, c);
         }
+        if(c < maze[0].length - 1)
     }
 }
