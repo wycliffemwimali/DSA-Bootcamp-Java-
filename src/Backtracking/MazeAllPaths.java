@@ -10,5 +10,7 @@ public class MazeAllPaths {
             System.out.println(p);
             return;
         }
+        //obstacle condition
+
     }
 }
