@@ -14,5 +14,7 @@ public class MazeAllPaths {
         if(!maze[r][c]){
             return;
         }
+        //recursion calls
+
     }
 }
