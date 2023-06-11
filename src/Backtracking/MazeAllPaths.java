@@ -4,9 +4,10 @@ public class MazeAllPaths {
     public static void main(String[] args) {
         boolean[][] board = {
                 {true, true, true},
-                {true, false, true},
+                {true, true, true},
                 {true, true, true}
         };
+        allPaths("", board, 0, 0);
     }
     static void allPaths(String p, boolean[][] maze, int r, int c){
         //base condition
