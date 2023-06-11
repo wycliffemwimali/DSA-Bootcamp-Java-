@@ -40,8 +40,12 @@ public class MazeObstracles {
             list.add(p);
             return  list;
         }
-        //recursion calls
         ArrayList<String> list = new ArrayList<>();
+        //obstacle condition
+        if(!maze[r][c]){
+            return list;
+        }
+        //recursion calls
         if(r < maze.length - 1){
             list.addAll(pathRestrictionRet(p + 'D', maze, r + 1, c));
             return  list;
@@ -50,10 +54,6 @@ public class MazeObstracles {
         if(c < maze[0].length - 1){
             list.addAll(pathRestrictionRet(p + 'R', maze, r, c + 1));
             return  list;
-        }
-        //obstacle condition
-        if(!maze[r][c]){
-            return list;
         }
         return list;
     }
