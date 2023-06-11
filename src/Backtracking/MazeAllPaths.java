@@ -24,5 +24,6 @@ public class MazeAllPaths {
         if(r > 0){
             allPaths(p + 'U', maze, r - 1, c);
         }
+        if(c > 0)
     }
 }
