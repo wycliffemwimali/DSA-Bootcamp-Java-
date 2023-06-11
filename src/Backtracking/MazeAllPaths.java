@@ -21,5 +21,6 @@ public class MazeAllPaths {
         if(c < maze[0].length - 1){
             allPaths(p + 'R', maze, r, c + 1);
         }
+        if(r > 0)
     }
 }
