@@ -54,6 +54,7 @@ public class MazeAllPaths {
                 System.out.println(Arrays.toString(arr));
             }
             System.out.println(p);
+            System.out.println();
             return;
         }
         //obstacle condition
