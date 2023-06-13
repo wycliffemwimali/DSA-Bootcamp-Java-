@@ -10,6 +10,7 @@ public class MazeAllPaths {
                 {true, true, true}
         };
         allPaths("", board, 0, 0);
+        int[][] path = new int[board.length][board[0].length];
         allPathsPrint("", board, 0, 0, path, 1);
     }
 
