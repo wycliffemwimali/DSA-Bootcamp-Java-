@@ -59,7 +59,7 @@ public class MazeAllPaths {
 
         //recursion calls
         if(r < maze.length - 1){
-            allPathsPrint(p + 'D', maze, r + 1, c);
+            allPathsPrint(p + 'D', maze, r + 1, c, path, step);
         }
         if(c < maze[0].length - 1){
             allPathsPrint(p + 'R', maze, r, c + 1);
