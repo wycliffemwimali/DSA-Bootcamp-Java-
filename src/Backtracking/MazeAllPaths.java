@@ -73,5 +73,6 @@ public class MazeAllPaths {
         }
 
         maze[r][c] = true;
+        path[r][c] = 0;
     }
 }
