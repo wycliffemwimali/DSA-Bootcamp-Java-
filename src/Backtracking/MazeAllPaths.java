@@ -1,5 +1,7 @@
 package Backtracking;
 
+import java.util.Arrays;
+
 public class MazeAllPaths {
     public static void main(String[] args) {
         boolean[][] board = {
@@ -46,7 +48,9 @@ public class MazeAllPaths {
     static void allPathsPrint(String p, boolean[][] maze, int r, int c, int[][] path, int step){
         //base condition
         if(r == maze.length - 1 && c == maze[0].length - 1){
-            System.out.println(p);
+            for(int[] arr: path){
+                System.out.println(Arrays.toString(arr));
+            }
             return;
         }
         //obstacle condition
