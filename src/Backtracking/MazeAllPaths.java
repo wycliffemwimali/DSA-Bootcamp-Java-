@@ -55,6 +55,7 @@ public class MazeAllPaths {
         }
 
         maze[r][c] = false;
+        path[r][c] = step;
 
 
         //recursion calls
