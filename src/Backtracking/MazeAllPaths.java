@@ -68,7 +68,7 @@ public class MazeAllPaths {
             allPathsPrint(p + 'U', maze, r - 1, c, path, step);
         }
         if(c > 0){
-            allPathsPrint(p + 'L', maze, r, c - 1);
+            allPathsPrint(p + 'L', maze, r, c - 1, path, step);
         }
 
         maze[r][c] = true;
