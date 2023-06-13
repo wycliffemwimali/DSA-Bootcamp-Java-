@@ -10,6 +10,7 @@ public class MazeAllPaths {
                 {true, true, true}
         };
         allPaths("", board, 0, 0);
+        allPathsPrint("", board, 0, 0, path, 1);
     }
 
     //backtracking
