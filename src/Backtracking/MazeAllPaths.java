@@ -62,7 +62,7 @@ public class MazeAllPaths {
             allPathsPrint(p + 'D', maze, r + 1, c, path, step + 1);
         }
         if(c < maze[0].length - 1){
-            allPathsPrint(p + 'R', maze, r, c + 1, path, step);
+            allPathsPrint(p + 'R', maze, r, c + 1, path, step + 1);
         }
         if(r > 0){
             allPathsPrint(p + 'U', maze, r - 1, c, path, step);
