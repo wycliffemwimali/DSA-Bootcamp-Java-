@@ -19,6 +19,8 @@ public class MazeAllPaths {
         if(!maze[r][c]){
             return;
         }
+
+        maze[r][c] = false;
         //recursion calls
         if(r < maze.length - 1){
             allPaths(p + 'D', maze, r + 1, c);
