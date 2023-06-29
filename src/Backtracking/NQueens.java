@@ -23,6 +23,12 @@ public class NQueens {
     }
 
     private static boolean isSafe(boolean[][] board, int row, int col) {
+        //check vertical row
+        for (int i = 0; i < col; i++){
+            if(board[i][col]){
+                return false;
+            }
+        }
     }
 
     private static void display(boolean[][] board) {
