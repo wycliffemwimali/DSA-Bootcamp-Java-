@@ -29,6 +29,13 @@ public class NQueens {
                 return false;
             }
         }
+        //diagnol left
+        int maxLeft = Math.min(row, col);
+        for(int i = 1; i < maxLeft; i++){
+            if(board[row-i][col-i]){
+                return false;
+            }
+        }
     }
 
     private static void display(boolean[][] board) {
