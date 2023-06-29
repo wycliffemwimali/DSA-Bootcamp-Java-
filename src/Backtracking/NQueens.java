@@ -10,6 +10,7 @@ public class NQueens {
     static int queens(boolean[][] board, int row){
         if(row == board.length){
             display(board);
+            System.out.println();
             return 1;
         }
         int count = 0;
@@ -61,6 +62,7 @@ public class NQueens {
             }
             System.out.println();
         }
+
 
     }
 }
