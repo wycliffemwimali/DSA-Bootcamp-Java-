@@ -16,9 +16,13 @@ public class NQueens {
             if(isSafe(board, row, col)){
                 board[row][col] = true;
                 count += queens(board, row + 1);
+                board[row][col] = false;
             }
         }
         return count;
+    }
+
+    private static boolean isSafe(boolean[][] board, int row, int col) {
     }
 
     private static void display(boolean[][] board) {
