@@ -12,6 +12,16 @@ public class NQueens {
     }
 
     private static void display(boolean[][] board) {
+        for(boolean[] row: board){
+            for(boolean element : row){
+                if(element){
+                    System.out.println("Q ");
+                }else {
+                    System.out.println("X");
+                }
+            }
+            System.out.println();
+        }
 
     }
 }
