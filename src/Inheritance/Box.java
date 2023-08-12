@@ -10,4 +10,11 @@ public class Box {
         this.h = -1;
         this.w = -1;
     }
+
+    //cube
+    public Box(double side){
+        this.l = side;
+        this.h = side;
+        this.w = side;
+    }
 }
