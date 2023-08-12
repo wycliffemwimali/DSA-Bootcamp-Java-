@@ -18,4 +18,9 @@ public class Box {
         this.w = side;
     }
 
+    Box(double l, double h, double w) {
+        this.l = l;
+        this.h = h;
+        this.w = w;
+    }
 }
