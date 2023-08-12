@@ -5,16 +5,17 @@ public class Box {
     double h;
     double w;
 
-    public Box() {
+    Box() {
         this.l = -1;
         this.h = -1;
         this.w = -1;
     }
 
     //cube
-    public Box(double side){
+    Box(double side){
         this.l = side;
         this.h = side;
         this.w = side;
     }
+
 }
