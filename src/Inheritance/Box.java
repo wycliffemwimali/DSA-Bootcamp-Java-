@@ -23,4 +23,12 @@ public class Box {
         this.h = h;
         this.w = w;
     }
+
+    //old Constructor
+    Box(Box old){
+        this.l = old.l;
+        this.h = old.h;
+        this.w = old.w;
+
+    }
 }
