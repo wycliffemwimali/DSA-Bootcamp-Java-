@@ -31,4 +31,7 @@ public class Box {
         this.w = old.w;
 
     }
+    public void information(){
+        System.out.println("running the box");
+    }
 }
