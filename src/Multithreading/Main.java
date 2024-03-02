@@ -46,7 +46,7 @@ public class Main {
 //        obj2.start();
         t1.start();
         t2.start();
-
+//synchronize results
         t1.join();
         t2.join();
 
