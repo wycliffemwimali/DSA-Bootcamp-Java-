@@ -38,7 +38,6 @@ public class Main {
             }
         };
 
-
         Thread t1 = new Thread(obj1);
         Thread t2 = new Thread(obj2);
 //        obj2.setPriority(Thread.NORM_PRIORITY);
