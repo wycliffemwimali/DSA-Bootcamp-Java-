@@ -5,7 +5,7 @@ public class Main {
         A obj1 = new A();
         B obj2 = new B();
 
-        obj2.setPriority(Thread.NORM_PRIORITY);
+//        obj2.setPriority(Thread.NORM_PRIORITY);
 
         obj1.start();
         obj2.start();
